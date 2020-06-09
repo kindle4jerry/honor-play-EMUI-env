@@ -1,0 +1,300 @@
+# 2018-10-11 21:24:29.0
+persist.iaware.mem_emerg_kill=true
+# 2018-07-02 10:11:27.0
+persist.sys.dualcards=true
+# 2018-07-02 10:12:50.0
+persist.sys.iaware.cpuenable=true
+# 2018-10-10 14:49:57.0
+persist.sys.support_config_ash=false
+# 2018-07-02 10:12:50.0
+ro.blight.exempt_app_type=-1,1,16,24
+# 2019-02-27 14:13:58.0
+ro.build.hide=false
+# 2018-07-31 13:45:34.0
+ro.build.hide.matchers=COR;cor;kirin970;mali-t880;9.0.0
+# 2018-07-31 13:45:34.0
+ro.build.hide.replacements=PIE;PIE;unknown;unknown;8.0.0
+# 2018-07-04 17:59:15.0
+ro.build.hide.settings=8;1.8 GHz;2.0GB;24.00 GB;32.00 GB;1920 x 1080;7.0;3.0.8;5.1
+# 2018-07-02 10:11:04.0
+ro.build.id=HUAWEICOR
+# 2018-07-02 10:11:11.0
+ro.build.product=COR
+# 2018-09-03 20:27:02.0
+ro.build.soundrecorder.imgtag=true
+# 2018-07-02 10:12:43.0
+ro.camera.smart_focus_enable=true
+# 2018-07-05 17:44:56.0
+ro.camera.style_trans_enable=1
+# 2018-07-02 10:11:33.0
+ro.camera.ttpic_enable=1
+# 2018-07-17 14:24:38.0
+ro.camera_features_reduce_9.0=false
+# 2018-07-02 10:12:09.0
+ro.check.modem_network=true
+# 2018-07-02 10:11:33.0
+ro.config.app_big_icon_size=170
+# 2018-07-02 10:12:43.0
+ro.config.ar_main_page=true
+# 2018-11-19 23:23:11.0
+ro.config.argesture_enable=0
+# 2018-11-19 23:25:29.0
+ro.config.arobject_enable=0
+# 2018-07-05 17:44:56.0
+ro.config.arstarphoto_enable=0
+# 2018-07-02 10:13:20.0
+ro.config.attach_ip_type=IPV4V6PCSCF
+# 2018-07-02 10:10:20.0
+ro.config.audioEffectForRing=true
+# 2018-07-02 10:12:50.0
+ro.config.blight_power_curve=38,1;57,0.8;100,0.75;220,0.7;300,0.75;320,0.8;340,0.9;360,1
+# 2018-07-05 17:44:56.0
+ro.config.cartoonphoto_enable=0
+# 2018-07-02 10:11:33.0
+ro.config.colorTemperature_3d=true
+# 2018-07-02 10:13:20.0
+ro.config.colorTemperature_K3=true
+# 2018-07-02 10:13:20.0
+ro.config.disable_operator_name=true
+# 2018-10-23 16:33:33.0
+ro.config.display_nighthota=true
+# 2018-07-02 10:12:56.0
+ro.config.enable_thermal_bdata=true
+# 2018-07-02 10:13:20.0
+ro.config.face_detect=1
+# 2018-07-02 10:12:56.0
+ro.config.face_light_slot=75
+# 2018-07-02 10:11:04.0
+ro.config.face_recognition=true
+# 2018-07-02 10:12:56.0
+ro.config.face_rise_light=30
+# 2018-07-02 10:13:25.0
+ro.config.fp_timeout_password=true
+# 2018-07-02 10:12:56.0
+ro.config.gameassist=1
+# 2018-09-12 15:08:39.0
+ro.config.gameassist.peripherals=1
+# 2018-07-23 10:56:15.0
+ro.config.gameassist_soundtovibrate=1
+# 2018-08-29 11:49:28.0
+ro.config.gameassist_voipopt=true
+# 2018-09-26 15:29:53.0
+ro.config.hide_meminfo=false
+# 2018-07-02 10:11:33.0
+ro.config.huawei_navi_extend=false
+# 2018-07-02 10:11:33.0
+ro.config.huawei_smallwindow=0
+# 2018-09-05 21:03:53.0
+ro.config.hw_BatteryLevel_job_allowed=92
+# 2019-02-02 10:08:15.0
+ro.config.hw_bluetooth_is_auto_scan=false
+# 2018-07-02 10:11:04.0
+ro.config.hw_camera_nfc_switch=true
+# 2018-07-02 10:12:56.0
+ro.config.hw_charge_frz=true
+# 2018-07-05 17:44:56.0
+ro.config.hw_codec_support=0.180410
+# 2018-07-02 10:13:25.0
+ro.config.hw_dts_settings=true
+# 2018-07-02 10:11:27.0
+ro.config.hw_easywakeup=false
+# 2018-07-02 10:12:43.0
+ro.config.hw_fyuse_art_enable=true
+# 2018-07-02 10:11:33.0
+ro.config.hw_glovemode_enabled=1
+# 2018-07-02 10:13:20.0
+ro.config.hw_hotswap_on=true
+# 2018-07-02 10:12:09.0
+ro.config.hw_lte_support=true
+# 2018-07-02 10:12:09.0
+ro.config.hw_media_flags=3
+# 2018-08-21 18:07:03.0
+ro.config.hw_navbar_is_black=false
+# 2019-03-29 09:29:03.0
+ro.config.hw_newsimple=true
+# 2018-07-02 10:11:04.0
+ro.config.hw_notch_hot_space=3
+# 2018-07-03 16:40:49.0
+ro.config.hw_notch_size=446,90,317,66
+# 2018-07-05 17:44:56.0
+ro.config.hw_preload_contacts=true
+# 2018-07-02 10:11:04.0
+ro.config.hw_show_4G_Plus_icon=true
+# 2018-07-02 10:13:20.0
+ro.config.hw_sim2airplane=true
+# 2018-07-02 10:11:27.0
+ro.config.hw_srlte=true
+# 2018-07-05 17:44:56.0
+ro.config.hw_support_clone_app=true
+# 2018-07-02 10:11:27.0
+ro.config.hw_support_geofence=true
+# 2018-07-02 10:12:09.0
+ro.config.hw_switchdata_4G=true
+# 2018-07-02 10:12:09.0
+ro.config.hw_sws=true
+# 2018-07-02 10:12:43.0
+ro.config.hw_triple_finger=true
+# 2018-06-26 10:27:58.0
+ro.config.hw_volte_on=true
+# 2018-06-26 10:27:58.0
+ro.config.hw_vtlte_on=true
+# 2018-07-02 10:12:43.0
+ro.config.hw_wakeup_device=true
+# 2019-02-27 14:13:58.0
+ro.config.hw_watermark=false
+# 2018-07-02 10:13:20.0
+ro.config.hw_wifibridge=true
+# 2018-08-15 18:17:09.0
+ro.config.led_close_by_camera=true
+# 2018-07-02 10:11:33.0
+ro.config.linkplus.liveupdate=true
+# 2018-07-16 16:05:31.0
+ro.config.marketing_name=Honor Play
+# 2018-07-02 10:13:20.0
+ro.config.new_hw_screen_aspect=2340:2218:1080
+# 2018-07-09 15:33:39.0
+ro.config.ota_update_theme=9
+# 2018-11-28 19:48:25.0
+ro.config.pg_beta_lowpower=true
+# 2019-04-02 15:18:29.0
+ro.config.pg_close_notkeysock=true
+# 2018-11-28 19:48:17.0
+ro.config.pg_unify_app_5min=true
+# 2018-09-19 15:26:09.0
+ro.config.pg_unify_push_5min=true
+# 2019-01-11 15:46:53.0
+ro.config.phone_findback_net=true
+# 2018-12-08 10:33:58.0
+ro.config.pureAndroidSecNotify=false
+# 2018-07-05 17:44:42.0
+ro.config.show_high_consume=true
+# 2019-02-02 10:08:15.0
+ro.config.show_sdcard_psw=true
+# 2018-08-29 15:12:57.0
+ro.config.soft_single_navi=true
+# 2019-02-02 10:08:15.0
+ro.config.step_count_show=true
+# 2018-07-02 10:13:25.0
+ro.config.support_aod=0
+# 2018-07-02 10:13:20.0
+ro.config.support_ca=true
+# 2018-07-02 10:12:56.0
+ro.config.support_face_mode=1
+# 2018-07-02 10:12:56.0
+ro.config.support_hwpki=true
+# 2018-07-02 10:12:56.0
+ro.config.support_iudf=true
+# 2019-02-02 10:08:15.0
+ro.config.support_notification_way=true
+# 2019-02-02 10:08:15.0
+ro.config.support_sdcard_crypt=true
+# 2018-07-02 10:13:25.0
+ro.config.swsAlwaysActiveForSPK=true
+# 2018-07-02 10:13:25.0
+ro.config.sws_apk_hptype=1
+# 2018-07-04 17:59:15.0
+ro.config.sws_moviemode=true
+# 2018-07-02 10:13:25.0
+ro.config.sws_version=0500
+# 2018-09-20 21:00:05.0
+ro.config.touch.head_down=false
+# 2018-07-02 10:13:25.0
+ro.config.vol_steps=15
+# 2018-07-02 10:12:09.0
+ro.dual.sim.phone=true
+# 2019-02-02 10:08:15.0
+ro.feature.display_screensaver_lite=false
+# 2019-02-18 16:30:41.0
+ro.feature.gallery.edit_illusion_enable=true
+# 2019-02-18 16:14:26.0
+ro.feature.gallery.hide_album_enable=true
+# 2019-02-18 16:20:47.0
+ro.feature.gallery.slide_show_enable=true
+# 2019-02-21 14:48:15.0
+ro.feature.hwcamera.dsl.artistfilter=0
+# 2019-02-02 14:42:12.0
+ro.feature.hwcamera.dsl.panorama3d=0
+# 2019-03-14 09:04:14.0
+ro.feature.launcher.long_click_enter_edit_mode=true
+# 2019-01-23 09:26:09.0
+ro.feature.launcher.setting_cycle_keep=true
+# 2019-02-02 10:08:15.0
+ro.feature.mobile_network_sharing_lite=false
+# 2019-02-02 10:08:15.0
+ro.feature.show_backfp_function=true
+# 2019-01-23 10:11:36.0
+ro.feature.weather.add_no_update_item=true
+# 2018-07-02 10:12:50.0
+ro.hwcamera.BackSnapShotLimit=true
+# 2018-07-05 17:44:56.0
+ro.hwcamera.default_back_mode=com.huawei.camera2.mode.smartcapturephoto.SmartCapturePhotoMode
+# 2018-10-08 15:01:48.0
+ro.hwcamera.flashoff=0
+# 2018-09-14 14:07:57.0
+ro.hwcamera.frontzoom_enable=1
+# 2018-07-05 17:44:56.0
+ro.hwcamera.gps_request_delay=30
+# 2018-07-02 10:12:50.0
+ro.hwcamera.portrait_mode=off
+# 2018-07-25 19:09:15.0
+ro.hwcamera.recognition_enable=1
+# 2018-07-02 10:12:50.0
+ro.hwcamera.smartshoot_enable=true
+# 2018-07-02 10:11:33.0
+ro.hwcamera.use.videosize.1080p=true
+# 2018-07-02 10:13:25.0
+ro.launcher_features_reduce_9.0=false
+# 2018-07-16 16:29:23.0
+ro.odm.config.hw_higeo_fusion_ver=1.5
+# 2018-07-16 16:29:23.0
+ro.odm.config.hw_higeo_map_matching=1
+# 2018-07-16 16:29:23.0
+ro.odm.config.hw_higeo_nw_pos_db=HUAWEI
+# 2018-07-16 16:29:23.0
+ro.odm.config.hw_higeo_pdrsupport=true
+# 2018-07-02 10:11:11.0
+ro.product.board=COR
+# 2018-07-02 10:11:11.0
+ro.product.brand=HONOR
+# 2018-07-02 10:11:11.0
+ro.product.device=HWCOR
+# 2018-07-02 10:11:27.0
+ro.product.fingerprintName=HUAWEI-02CNL
+# 2018-07-02 10:12:43.0
+ro.product.hardwareversion=HL1CORM
+# 2018-07-02 10:11:11.0
+ro.product.manufacturer=HUAWEI
+# 2018-07-02 10:11:19.0
+ro.product.model=COR
+# 2018-07-02 10:11:19.0
+ro.product.name=COR
+# 2019-02-27 10:37:40.0
+ro.readfastboot=0
+# 2018-08-13 09:14:54.0
+ro.sys.pg_nfb_kill=true
+# 2018-07-02 10:12:56.0
+sys.refresh.dirty=1
+
+
+
+
+ro.comp.product_version=Product-COR-LGRP1-CHN 9.1.0(0000)
+
+
+=
+
+ro.config.beta_sec_ctrl=false
+
+sys.hisi.pmom.service.enable=false
+
+ro.build.display.id=no-need
+
+ro.hw.hota.is_hwinit_exists=true
+
+ro.comp.hl.product_base_version=COR-LGRP1-CHN 9.1.0.312(SP1)
+
+ro.hw.base_all_groupversion=G1.0
+
+ro.build.backtargetmode=V2.0
+
+ro.build.version.base_os=HONOR/COR-AL00/HWCOR:9/HUAWEICOR-AL00/181C00R1:user/release-keys
