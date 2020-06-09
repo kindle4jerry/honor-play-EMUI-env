@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <popular_app_config version="1.0">
+    <popular_game pkg_name="com.baidu.BaiduMap"/>
+    <popular_game pkg_name="com.tencent.map"/>
+    <popular_game pkg_name="com.autonavi.minimap"/>
     <popular_game pkg_name="com.android.chrome" />
     <popular_game pkg_name="air.com.tencent.qqfarmios" />
     <popular_game pkg_name="com.bf.sgs.hdexp.huawei" />
@@ -116,6 +119,15 @@
     <popular_game pkg_name="com.tencent.tmgp.rxcq" />
     <popular_game pkg_name="com.tencent.tmgp.seal" />
     <popular_game pkg_name="com.tencent.tmgp.sgame" />
+    <popular_game pkg_name="com.garena.game.kgsam" />
+    <popular_game pkg_name="com.tencent.ig" />
+    <popular_game pkg_name="com.rovio.battlebay" />
+    <popular_game pkg_name="com.mobile.legends" />
+    <popular_game pkg_name="com.gameloft.android.ANMP.GloftM5HM" />
+    <popular_game pkg_name="com.netease.chiji" />
+    <popular_game pkg_name="com.madfingergames.legends" />
+    <popular_game pkg_name="com.pikpok.dr2.play" />
+    <popular_game pkg_name="com.t2ksports.nba2k19and" />
     <popular_game pkg_name="com.tencent.tmgp.ttcz" />
     <popular_game pkg_name="com.tencent.WeFire" />
     <popular_game pkg_name="com.ttx5.huawei" />

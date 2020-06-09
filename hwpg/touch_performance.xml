@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Touchscreen config file:
-Used for provide better touch performancein some special application;
-Notice there must be a one-to-one match of 'type' between this xml and dts files;
-This file should be maintained by Dept-Multimedia Quality Dept-Picture Quality Dept only;
+触摸屏配置文件：
+用于在某些特殊应用中提供更好的触摸性能；
+注意，这个xml文件和dts文件之间必须有一对一的“type”匹配；
+本文件仅由多媒体质量部图片质量部保存；
 -->
 <list>
-    <array type="3"><!-- For special game config -->
+    <array type="3"><!-- 特殊游戏配置 -->
         <item>com.tencent.tmgp.sgame</item>
-        <item>com.ztgame.bob</item>
-        <item>com.wepie.snake.huawei</item>
-        <item>com.wepie.snake.tencent</item>
-        <item>com.tencent.tmgp.speedmobile</item>
-        <item>com.tencent.tmgp.cf</item>
-        <item>com.garena.game.kgsam</item>
         <item>com.garena.game.kgtw</item>
         <item>com.garena.game.kgvn</item>
         <item>com.garena.game.kgth</item>
         <item>com.garena.game.kgid</item>
+        <item>com.garena.game.kgsam</item>
         <item>com.netmarble.penta</item>
         <item>com.garena.game.kges</item>
         <item>com.garena.game.kgvntest</item>
         <item>com.ngame.allstar.eu</item>
-        <item>com.gameloft.android.ANMP.GloftM5HM</item>
-        <item>com.gameloft.android.ANMP.GloftMVHM</item>
-        <item>com.ea.games.r3_row</item>
-        <item>com.ea.gp.fifamobile</item>
-        <item>com.firsttouchgames.dls3</item>
-        <item>com.netease.zjz.huawei</item>
+        <item>com.t2ksports.nba2k18and</item>
+        <item>com.t2ksports.nba2k17android</item>
+        <item>com.miHoYo.bh3.huawei</item>
+        <item>com.superevilmegacorp.game</item>
+        <item>com.mobile.legends:UnityKillsMe</item>
+        <item>com.netease.pes.huawei</item>
+        <item>com.netease.onmyoji</item>
+        <item>com.netease.onmyoji.huawei</item>
+    </array>
+	<array type="4"><!-- For shoot  games-->
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.tencent.ig</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.netease.hyxd.huawei</item>
+        <item>com.netease.hyxd</item>
         <item>com.tencent.tmgp.pubgm</item>
-       <item>com.wyd.hero.yqlfc.cb1.huawei</item>
-    </array>
-    <array type="4"><!-- For shoot  games-->
-	<item>com.tencent.tmgp.pubgmhd</item>
-	<item>com.netease.hyxd.huawei</item>
-	<item>com.netease.hyxd</item>
-	<item>com.netease.hyxd.baidu</item>
-	<item>com.netease.hyxd.mi</item>
-	<item>com.netease.hyxd.vivo</item>
-	<item>com.netease.hyxd.tt</item>
-	<item>com.netease.hyxd.aligames</item>
-	<item>com.tencent.ig</item>
-	<item>com.pubg.krmobile</item>
-    </array>
+        <item>com.pubg.krmobile</item>
+        <item>com.netease.chiji</item>
+        <item>com.epicgames.fortnite</item>
+	</array>
 </list>
 
 

@@ -1,9 +1,9 @@
 # 2018-10-11 21:24:29.0
-persist.iaware.mem_emerg_kill=true
+persist.iaware.mem_emerg_kill=false
 # 2018-07-02 10:11:27.0
 persist.sys.dualcards=true
 # 2018-07-02 10:12:50.0
-persist.sys.iaware.cpuenable=true
+persist.sys.iaware.cpuenable=false
 # 2018-10-10 14:49:57.0
 persist.sys.support_config_ash=false
 # 2018-07-02 10:12:50.0
@@ -20,6 +20,8 @@ ro.build.hide.settings=8;1.8 GHz;2.0GB;24.00 GB;32.00 GB;1920 x 1080;7.0;3.0.8;5
 ro.build.id=HUAWEICOR
 # 2018-07-02 10:11:11.0
 ro.build.product=COR
+# 2018-11-06 15:58:05.0
+ro.build.version.magic=3.1.1
 # 2018-09-03 20:27:02.0
 ro.build.soundrecorder.imgtag=true
 # 2018-07-02 10:12:43.0
@@ -28,6 +30,8 @@ ro.camera.smart_focus_enable=true
 ro.camera.style_trans_enable=1
 # 2018-07-02 10:11:33.0
 ro.camera.ttpic_enable=1
+# 2018-09-26 17:11:20.0
+ro.gpu_turbo=GPU Turbo
 # 2018-07-17 14:24:38.0
 ro.camera_features_reduce_9.0=false
 # 2018-07-02 10:12:09.0
@@ -36,6 +40,12 @@ ro.check.modem_network=true
 ro.config.app_big_icon_size=170
 # 2018-07-02 10:12:43.0
 ro.config.ar_main_page=true
+# 2018-07-28 18:12:31.0
+ro.camera.animoji_supported=1
+# 2018-11-19 17:19:32.0
+ro.camera.back_sensor_hdr_default=off
+# 2018-11-05 14:55:12.0
+ro.camera.ttpic_enable=1
 # 2018-11-19 23:23:11.0
 ro.config.argesture_enable=0
 # 2018-11-19 23:25:29.0
@@ -74,6 +84,8 @@ ro.config.fp_timeout_password=true
 ro.config.gameassist=1
 # 2018-09-12 15:08:39.0
 ro.config.gameassist.peripherals=1
+# 2018-08-31 17:04:56.0
+ro.config.gameassist_booster=1
 # 2018-07-23 10:56:15.0
 ro.config.gameassist_soundtovibrate=1
 # 2018-08-29 11:49:28.0
@@ -226,8 +238,14 @@ ro.feature.show_backfp_function=true
 ro.feature.weather.add_no_update_item=true
 # 2018-07-02 10:12:50.0
 ro.hwcamera.BackSnapShotLimit=true
+# 2018-10-19 14:58:18.0
+ro.hwcamera.aimovie_enable=1
 # 2018-07-05 17:44:56.0
 ro.hwcamera.default_back_mode=com.huawei.camera2.mode.smartcapturephoto.SmartCapturePhotoMode
+# 2018-07-18 18:19:01.0
+ro.hwcamera.front_touch_shot=off
+# 2018-08-10 16:45:21.0
+ro.hwcamera.frontsr_enable=true
 # 2018-10-08 15:01:48.0
 ro.hwcamera.flashoff=0
 # 2018-09-14 14:07:57.0
@@ -236,10 +254,14 @@ ro.hwcamera.frontzoom_enable=1
 ro.hwcamera.gps_request_delay=30
 # 2018-07-02 10:12:50.0
 ro.hwcamera.portrait_mode=off
+# 2018-10-15 10:07:13.0
+ro.hwcamera.realfull_enable=1
 # 2018-07-25 19:09:15.0
 ro.hwcamera.recognition_enable=1
 # 2018-07-02 10:12:50.0
 ro.hwcamera.smartshoot_enable=true
+# 2018-11-10 10:33:09.0
+ro.hwcamera.smartzoom_enable=true
 # 2018-07-02 10:11:33.0
 ro.hwcamera.use.videosize.1080p=true
 # 2018-07-02 10:13:25.0

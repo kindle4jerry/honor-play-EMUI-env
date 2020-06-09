@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <HiACEConfig>
-    <UsingBLC>1</UsingBLC><!-- Enable ambient light transition for BLC -->
-    <UsingSRE>1</UsingSRE><!-- Enable SRE instead of SBL -->
-    <LightSensorRateMills>300</LightSensorRateMills><!-- sensor rate -->
+    <UsingBLC>1</UsingBLC><!-- 为BLC启用环境光转换 -->
+    <UsingSRE>1</UsingSRE><!-- 启用SRE而不是SBL -->
+    <LightSensorRateMills>300</LightSensorRateMills><!-- 传感器速率 -->
     <SceneRecognition>
         <SceneCamera>true</SceneCamera>
-    </SceneRecognition><!-- which app open for SRE -->
+    </SceneRecognition><!-- 哪个应用程序为SRE打开 -->
 
-    <OutDoorThreshold>1000</OutDoorThreshold><!-- open SRE lux threshold, lux diff better >=500lux for open and close -->
-    <InDoorThreshold>500</InDoorThreshold><!-- close SRE lux threshold -->
-    <BrighenDebounceTime>3000</BrighenDebounceTime><!-- open SRE delay time -->
-    <DarkenDebounceTime>3000</DarkenDebounceTime><!-- close SRE delay time -->
+    <OutDoorThreshold>1000</OutDoorThreshold><!-- 打开SRE lux阈值，lux diff better>=500lux用于打开和关闭 -->
+    <InDoorThreshold>500</InDoorThreshold><!-- 关闭SRE lux阈值 -->
+    <BrighenDebounceTime>3000</BrighenDebounceTime><!-- 打开SRE延迟时间 -->
+    <DarkenDebounceTime>3000</DarkenDebounceTime><!-- 关闭SRE延迟时间 -->
     <BrightenLinePoints>
         <Point>0,15</Point>
         <Point>2,15</Point>
@@ -19,7 +19,7 @@
         <Point>500,439</Point>
         <Point>1000,989</Point>
         <Point>40000,989</Point>
-    </BrightenLinePoints><!-- brighten lines for all ambient light, don't change -->
+    </BrightenLinePoints><!-- 照亮所有环境光线，不要改变 -->
     <DarkenLinePoints>
         <Point>0,1</Point>
         <Point>1,1</Point>
@@ -33,5 +33,5 @@
         <Point>1000,500</Point>
         <Point>2000,1000</Point>
         <Point>40000,1000</Point>
-    </DarkenLinePoints><!-- darken lines for all ambient light, don't change -->
+    </DarkenLinePoints><!-- 所有环境光的暗线，不要改变 -->
 </HiACEConfig>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EyeProtectionConfig>
     <EyeProtectionBrightnessPoints>
-        <Point>0,6</Point>
-	<Point>20,34</Point>
-	<Point>50,53</Point>
-	<Point>100,58</Point>
-	<Point>200,63</Point>
-	<Point>400,73</Point>
-	<Point>1000,107</Point>
-	<Point>2000,165</Point>
-	<Point>3000,199</Point>
-	<Point>5000,233</Point>
+        <Point>0,8</Point>
+	<Point>20,35</Point>
+	<Point>50,51</Point>
+	<Point>100,57</Point>
+	<Point>200,61</Point>
+	<Point>400,70</Point>
+	<Point>1000,100</Point>
+	<Point>2000,147</Point>
+	<Point>3000,185</Point>
+	<Point>5000,214</Point>
 	<Point>10000,255</Point>
 	<Point>40000,255</Point>
     </EyeProtectionBrightnessPoints>

@@ -50,7 +50,7 @@
     <OutdoorResponseBrightenTime>650</OutdoorResponseBrightenTime>
     <OutdoorResponseDarkenTime>-1</OutdoorResponseDarkenTime>
     <OutdoorResponseCount>5</OutdoorResponseCount>
-    <ProximityLuxThreshold>50</ProximityLuxThreshold>
+    <ProximityLuxThreshold>20</ProximityLuxThreshold>
     <ProximityResponseBrightenTime>15000</ProximityResponseBrightenTime>
     <InitDoubleSensorInterfere>8.0f</InitDoubleSensorInterfere>
     <InitNumLastBuffer>10</InitNumLastBuffer>
@@ -62,14 +62,16 @@
     <ManualAnimationBrightenTime>1.0</ManualAnimationBrightenTime>
     <ManualAnimationDarkenTime>4.0</ManualAnimationDarkenTime>
     <ManualPowerSavingBrighnessLineEnable>true</ManualPowerSavingBrighnessLineEnable>
-    <ManualPowerSavingAnimationBrightenTime>3.0</ManualPowerSavingAnimationBrightenTime>
+    <ManualPowerSavingAnimationBrightenTime>10.0</ManualPowerSavingAnimationBrightenTime>
     <ManualPowerSavingAnimationDarkenTime>20.0</ManualPowerSavingAnimationDarkenTime>
     <ManualThermalModeAnimationBrightenTime>3.0</ManualThermalModeAnimationBrightenTime>
     <ManualThermalModeAnimationDarkenTime>4.0</ManualThermalModeAnimationDarkenTime>
+    <ManualPowerSavingBrighnessLineDisableForDemo>true</ManualPowerSavingBrighnessLineDisableForDemo>
+    <AutoPowerSavingBrighnessLineDisableForDemo>true</AutoPowerSavingBrighnessLineDisableForDemo>
     <DayModeAlgoEnable>true</DayModeAlgoEnable>
-    <DayModeSwitchTime>45</DayModeSwitchTime>
+    <DayModeSwitchTime>5</DayModeSwitchTime>
     <DayModeBeginTime>5</DayModeBeginTime>
-    <DayModeEndTime>0</DayModeEndTime>
+    <DayModeEndTime>23</DayModeEndTime>
     <DayModeModifyNumPoint>2</DayModeModifyNumPoint>
     <DayModeModifyMinBrightness>5</DayModeModifyMinBrightness>
     <OffsetResetSwitchTime>30</OffsetResetSwitchTime>
@@ -82,7 +84,7 @@
     <AutoModeInOutDoorLimitEnble>true</AutoModeInOutDoorLimitEnble>
     <DarkLightLevelMinThreshold>0</DarkLightLevelMinThreshold>
     <DarkLightLevelMaxThreshold>10</DarkLightLevelMaxThreshold>
-    <DarkLightLevelRatio>1.4</DarkLightLevelRatio>
+    <DarkLightLevelRatio>1.5</DarkLightLevelRatio>
     <AnimatingForRGBWEnable>false</AnimatingForRGBWEnable>
     <OminLevelModeEnable>true</OminLevelModeEnable>
     <OminLevelOffsetCountEnable>false</OminLevelOffsetCountEnable>
@@ -90,8 +92,15 @@
     <OminLevelCountValidLuxTh>5</OminLevelCountValidLuxTh>
     <OminLevelCountValidTimeTh>120</OminLevelCountValidTimeTh>
     <OminLevelCountResetLongTimeTh>20160</OminLevelCountResetLongTimeTh>
-    <EyeProtectionSplineEnable>true</EyeProtectionSplineEnable>
+    <EyeProtectionSplineEnable>false</EyeProtectionSplineEnable>
     <MonitorEnable>true</MonitorEnable>
+    <GameModeEnable>true</GameModeEnable>
+    <GameModeBrightenAnimationTime>2.0</GameModeBrightenAnimationTime>
+    <GameModeDarkentenAnimationTime>3.0</GameModeDarkentenAnimationTime>
+    <GameModeDarkentenLongAnimationTime>5.0</GameModeDarkentenLongAnimationTime>
+    <GameModeDarkentenLongTarget>236</GameModeDarkentenLongTarget>
+    <GameModeDarkentenLongCurrent>1000</GameModeDarkentenLongCurrent>
+    <GameModeClearOffsetTime>1800000</GameModeClearOffsetTime>
     <SceneProcessing>
         <SceneMaxPoints>171</SceneMaxPoints>
         <SceneGapPoints>29</SceneGapPoints>
@@ -128,7 +137,9 @@
     <DarkenlinePoints>
         <Point>0,1</Point>
         <Point>1,1</Point>
-        <Point>10,10</Point>
+        <Point>5,5</Point>
+        <Point>6,5</Point>
+        <Point>10,9</Point>
         <Point>20,15</Point>
         <Point>50,35</Point>
         <Point>100,80</Point>
@@ -146,57 +157,92 @@
     <DefaultBrightness>100</DefaultBrightness>
     <BrightnessCalibrationEnabled>true</BrightnessCalibrationEnabled>
     <OffsetDarkenAlphaLeft>0</OffsetDarkenAlphaLeft>
+    <PersonalizedBrightnessCurveEnable>true</PersonalizedBrightnessCurveEnable>
+    <DayModeMinimumBrightness>6</DayModeMinimumBrightness>
+    <VehicleModeEnable>true</VehicleModeEnable>
+    <VehicleModeBrighntess>9</VehicleModeBrighntess>
+    <VehicleModeLuxThreshold>20</VehicleModeLuxThreshold>
+    <VehicleModeDisableTimeMillis>10000</VehicleModeDisableTimeMillis>
+    <VehicleModeQuitTimeForPowerOn>180</VehicleModeQuitTimeForPowerOn>
+    <VehicleModeEnterTimeForPowerOn>180</VehicleModeEnterTimeForPowerOn>
     <DefaultBrightnessPoints>
-	<Point>0,6</Point>
-	<Point>20,40</Point>
-	<Point>50,53</Point>
-	<Point>100,58</Point>
-	<Point>200,63</Point>
-	<Point>400,73</Point>
-	<Point>1000,110</Point>
-	<Point>2000,165</Point>
-	<Point>3000,199</Point>
-	<Point>5000,233</Point>
+	<Point>0,8</Point>
+	<Point>20,35</Point>
+	<Point>50,51</Point>
+	<Point>100,57</Point>
+	<Point>200,61</Point>
+	<Point>400,70</Point>
+	<Point>1000,100</Point>
+	<Point>2000,147</Point>
+	<Point>3000,185</Point>
+	<Point>5000,214</Point>
 	<Point>10000,255</Point>
 	<Point>40000,255</Point>
     </DefaultBrightnessPoints>
     <CoverModeBrighnessLinePoints>
         <Point>0,25</Point>
-        <Point>20,34</Point>
-        <Point>50,53</Point>
-        <Point>1000,107</Point>
-        <Point>3000,199</Point>
-        <Point>5000,233</Point>
+        <Point>20,35</Point>
+	<Point>50,51</Point>
+	<Point>100,57</Point>
+	<Point>200,61</Point>
+	<Point>400,70</Point>
+	<Point>1000,100</Point>
+	<Point>2000,147</Point>
+	<Point>3000,185</Point>
+	<Point>5000,214</Point>
         <Point>10000,255</Point>
         <Point>40000,255</Point>
     </CoverModeBrighnessLinePoints>
     <CameraBrightnessPoints>
-        <Point>0,42</Point>
-        <Point>20,105</Point>
-        <Point>90,140</Point>
-        <Point>106,143</Point>
-        <Point>143,150</Point>
-        <Point>174,153</Point>
-        <Point>800,172</Point>
-        <Point>1000,178</Point>
-        <Point>1700,190</Point>
-        <Point>2700,216</Point>
-        <Point>3100,224</Point>
-        <Point>4000,244</Point>
-        <Point>5000,255</Point>
+        <Point>0,35</Point>
+        <Point>90,100</Point>
+        <Point>106,104</Point>
+        <Point>143,110</Point>
+        <Point>174,118</Point>
+        <Point>800,150</Point>
+        <Point>1000,158</Point>
+        <Point>1700,178</Point>
+        <Point>2700,200</Point>
+        <Point>3100,209</Point>
+        <Point>4000,228</Point>
+        <Point>5000,238</Point>
+        <Point>10000,255</Point>
         <Point>40000,255</Point>
     </CameraBrightnessPoints>
+    <GameModeBrightnessPoints>
+        <Point>0,11</Point>
+        <Point>30,51</Point>
+        <Point>100,75</Point>
+        <Point>300,98</Point>
+        <Point>1000,135</Point>
+	<Point>2000,147</Point>
+        <Point>3000,185</Point>
+        <Point>5000,214</Point>
+        <Point>10000,255</Point>
+        <Point>40000,255</Point>
+    </GameModeBrightnessPoints>
+    <GameModeAmbientLuxValidBrightnessPoints>
+        <Point>0,10,25</Point>
+        <Point>30,47,69</Point>
+        <Point>100,69,100</Point>
+        <Point>300,90,131</Point>
+        <Point>1000,127,180</Point>
+        <Point>3000,165,203</Point>
+        <Point>5000,182,220</Point>
+        <Point>10000,214,255</Point>
+        <Point>40000,255,255</Point>
+    </GameModeAmbientLuxValidBrightnessPoints>
     <PowerSavingBrightnessPoints>
-        <Point>0,6</Point>
-	<Point>20,34</Point>
-	<Point>50,50</Point>
-	<Point>100,53</Point>
-	<Point>200,57</Point>
-	<Point>400,65</Point>
-	<Point>1000,93</Point>
-	<Point>2000,136</Point>
-	<Point>3000,180</Point>
-	<Point>5000,216</Point>
+        <Point>0,8</Point>
+	<Point>20,35</Point>
+	<Point>50,48</Point>
+	<Point>100,52</Point>
+	<Point>200,55</Point>
+	<Point>400,62</Point>
+	<Point>1000,89</Point>
+	<Point>2000,134</Point>
+	<Point>3000,170</Point>
+	<Point>5000,199</Point>
 	<Point>10000,255</Point>
 	<Point>40000,255</Point>
     </PowerSavingBrightnessPoints>
@@ -210,7 +256,7 @@
     <BrightenGradualTime>3.0</BrightenGradualTime>
     <DarkenGradualTime>20.0</DarkenGradualTime>
     <CameraModeEnable>true</CameraModeEnable>
-    <CameraAnimationTime>3.0</CameraAnimationTime>
+    <CameraAnimationTime>1.0</CameraAnimationTime>
     <BrightenThresholdFor255>10001</BrightenThresholdFor255>
     <DarkenTargetFor255>0</DarkenTargetFor255>
     <DarkenCurrentFor255>1300</DarkenCurrentFor255>
@@ -219,7 +265,7 @@
     <DimTime>3.0</DimTime>
     <AnimationEqualRatioEnable>true</AnimationEqualRatioEnable>
     <ScreenBrightnessMinNit>2</ScreenBrightnessMinNit>
-    <ScreenBrightnessMaxNit>450</ScreenBrightnessMaxNit>
+    <ScreenBrightnessMaxNit>500</ScreenBrightnessMaxNit>
     <VariableStep>
         <DarkenGradualTimeMax>58.0f</DarkenGradualTimeMax>
         <DarkenGradualTimeMin>8.0f</DarkenGradualTimeMin>
@@ -232,10 +278,10 @@
     </Proximity>
 
     <ManualMode>1</ManualMode>
-    <ManualBrightnessMaxLimit>255</ManualBrightnessMaxLimit>
+    <ManualBrightnessMaxLimit>230</ManualBrightnessMaxLimit>
     <ManualBrightnessMinLimit>4</ManualBrightnessMinLimit>
-    <OutDoorThreshold>40000</OutDoorThreshold>
-    <InDoorThreshold>5000</InDoorThreshold>
+    <OutDoorThreshold>1000</OutDoorThreshold>
+    <InDoorThreshold>500</InDoorThreshold>
     <ManualBrighenDebounceTime>3000</ManualBrighenDebounceTime>
     <ManualDarkenDebounceTime>3000</ManualDarkenDebounceTime>
     <ManualBrightenLinePoints>
@@ -248,23 +294,21 @@
         <Point>0,1</Point>
         <Point>1,1</Point>
         <Point>500,500</Point>
-        <Point>1000,1000</Point>
-        <Point>2000,2000</Point>
-        <Point>40000,40000</Point>
+        <Point>1000,500</Point>
+        <Point>2000,1000</Point>
+	<Point>20000,10000</Point>
+        <Point>40000,30000</Point>
     </ManualDarkenLinePoints>
     <AmbientLuxValidBrightnessPoints>
-        <Point>0,5,24</Point>
-        <Point>20,25,46</Point>
-        <Point>50,46,72</Point>
-	<Point>100,53,77</Point>
-        <Point>200,58,82</Point>
-        <Point>400,69,93</Point>
-        <Point>1000,95,117</Point>
-        <Point>2000,145,183</Point>
-        <Point>3000,182,217</Point>
-	<Point>5000,213,244</Point>
-        <Point>10000,231,255</Point>
-        <Point>40000,231,255</Point>
+        <Point>0,6,25</Point>
+        <Point>25,26,51</Point>
+        <Point>50,43,65</Point>
+	<Point>500,55,98</Point>
+        <Point>1000,80,120</Point>
+        <Point>3000,165,203</Point>
+        <Point>5000,182,220</Point>
+        <Point>10000,214,255</Point>
+        <Point>40000,255,255</Point>
     </AmbientLuxValidBrightnessPoints>
 
 </LABCConfig>

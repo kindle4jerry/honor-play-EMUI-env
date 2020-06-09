@@ -161,8 +161,9 @@ on init
 
     chown system system /sys/class/devfreq/gpufreq/gpu_scene_aware/scene
     chmod 0660 /sys/class/devfreq/gpufreq/gpu_scene_aware/scene
-    write /sys/class/devfreq/gpufreq/gpu_scene_aware/scene_para 0:85:332000000:100:20,80:332000000:90:550000000:80
-    write /sys/class/devfreq/gpufreq/gpu_scene_aware/scene_para 1:85:550000000:100:20,80:332000000:90:550000000:80
+    write /sys/class/devfreq/gpufreq/gpu_scene_aware/scene_para 0:85:237143000:100:10,80:237143000:90:667000000:98
+    write /sys/class/devfreq/gpufreq/gpu_scene_aware/scene_para 1:85:415000000:100:10,80:237143000:80:550000000:80
+    write /sys/class/devfreq/gpufreq/gpu_scene_aware/scene_para 2:85:237143000:100:20,80:237143000:90:550000000:80
 
     write /sys/class/devfreq/ddrfreq/min_freq 1866000000
     write /sys/class/devfreq/ddrfreq/max_freq 1866000000
